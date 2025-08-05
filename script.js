@@ -27,3 +27,9 @@ console.log("Cloned Student:", clonedStudent);
 const newCourses = ["Art", "Philosophy"];
 const allCourses = [...student.courses, ...newCourses];
 console.log("Merged Courses:", allCourses);
+student.addCourse = function(course) {
+  this.courses.push(course);
+};
+
+student.addCourse("Programming");
+console.log("Updated Courses:", student.courses);
