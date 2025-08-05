@@ -22,3 +22,5 @@ const scores = [85, 92, 78, 90];
 const [firstScore, secondScore] = scores;
 console.log("First Score:", firstScore);
 console.log("Second Score:", secondScore);
+const clonedStudent = { ...student, graduationYear: 2026 };
+console.log("Cloned Student:", clonedStudent);
