@@ -24,3 +24,6 @@ console.log("First Score:", firstScore);
 console.log("Second Score:", secondScore);
 const clonedStudent = { ...student, graduationYear: 2026 };
 console.log("Cloned Student:", clonedStudent);
+const newCourses = ["Art", "Philosophy"];
+const allCourses = [...student.courses, ...newCourses];
+console.log("Merged Courses:", allCourses);
