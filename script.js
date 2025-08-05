@@ -15,3 +15,6 @@ console.log("JSON String:", jsonString);
 
 const parsedStudent = JSON.parse(jsonString);
 console.log("Parsed Object:", parsedStudent);
+const { name, courses } = student;
+console.log("Name:", name);
+console.log("Courses:", courses);
