@@ -10,3 +10,8 @@ const student = {
 
 console.log(student.name, student.age);
 console.log(student.getInfo());
+const jsonString = JSON.stringify(student);
+console.log("JSON String:", jsonString);
+
+const parsedStudent = JSON.parse(jsonString);
+console.log("Parsed Object:", parsedStudent);
