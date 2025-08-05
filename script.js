@@ -18,3 +18,7 @@ console.log("Parsed Object:", parsedStudent);
 const { name, courses } = student;
 console.log("Name:", name);
 console.log("Courses:", courses);
+const scores = [85, 92, 78, 90];
+const [firstScore, secondScore] = scores;
+console.log("First Score:", firstScore);
+console.log("Second Score:", secondScore);
