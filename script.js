@@ -33,3 +33,8 @@ student.addCourse = function(course) {
 
 student.addCourse("Programming");
 console.log("Updated Courses:", student.courses);
+student.totalCourses = function() {
+  return this.courses.length;
+};
+
+console.log("Total Courses:", student.totalCourses());
