@@ -38,3 +38,5 @@ student.totalCourses = function() {
 };
 
 console.log("Total Courses:", student.totalCourses());
+const avgScore = scores.reduce((sum, s) => sum + s, 0) / scores.length;
+console.log("Average Score:", avgScore.toFixed(2));
